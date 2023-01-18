@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    height: 100px;
+    color: white;
+    align-content: center;
+}
+
+
+.main{
+    padding: 15%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.shows{
+    padding-top: 20px;
+   display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    border-bottom: 3px solid #333;
+    justify-content: center;
+}
+
+img.shows{
+    
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+h3{
+    border: 3px solid #333;
+    background-color: rgb(188, 188, 188);
+}
+
+.links{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.theatre-background{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.foot{
+    padding-top: 50px;
+}
+
+button{
+    background-color: rgb(140, 150, 28);
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+
+.image-container{
+    padding-right: 40px;
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.show-list{
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+ol{
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+}
+
